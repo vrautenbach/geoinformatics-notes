@@ -8,19 +8,19 @@ This page provides resources and some guidelines on how to complete a GIS311 pra
 
 To open pgAdmin, go to the `Start` --> `Applications` --> `PostgreSQL 10.x`, and select pgAdmin4. The pgAdmin interface will now open (you should see an elephant on a splash screen). The image below shows what the interface looks like.
 
-![pgAdmin Loading screen](https://www.postgresql-archive.org/attachment/6003956/0/Screenshot%20from%202018-02-01%2008-46-00.png)
+![pgAdmin Loading screen](https://github.com/vrautenbach/gis311-notes/blob/master/images/SplashScreen.png)
 
 
 To create a new database, use the menu at the top, `Object` --> `Create` --> `Database`. Add a database name that is appropriate and under the **Definition** tab, select the postgis template (see below). The general rule of thumb is to ***NOT*** use capital letters, special characters and spaces. This creates complications, so try to avoid this.
 
-[[File:CreateNewDatabase.png|center|500px|pgAdmin4 interface]]
+![Create New Database](https://github.com/vrautenbach/gis311-notes/blob/master/images/CreateNewDatabase.png)
 
 
 There is two ways to check if you successfully created a spatial database (i.e. meaning that you will be able to load geometries into the database):
 1. Expand the **Extensions** section, you should see the **postgis** and **postgis_topology** extensions.
 2. Under **schemas**, you should have a **topology** schema and in the public schema there will be table called **spatial_ref_sys**.
 
-[[File:SpatialDatabases.png|center|300px|pgAdmin4 interface]]
+![Spatial Databases](https://github.com/vrautenbach/gis311-notes/blob/master/images/SpatialDatabases.png)
 
 
 If you missed the step to create a spatial database, click on Extensions and add the **postgis** and **postgis_topology** extensions.
@@ -62,7 +62,7 @@ This would require using aggregation operator, such as *COUNT()*, *SUM()* or *AV
 ### Connection a PostGIS database to QGIS
 In order to load QGIS layers into a PostGIS table or view a PostGIS table in QGIS, the first step is to create a connection between QGIS and PostgreSQL. To create a new connection, go to, `Layer` --> `Add layer` --> `Add PostGIS layers`. Next, select **New**. The following popup will appear.
 
-[[File:Qgis_connection.png|center|250px|pgAdmin4 interface]]
+![QGIS Connection](https://github.com/vrautenbach/gis311-notes/blob/master/images/QGIS_Connection.png)
 
 Add the following information:
 * *Name* --> this is the name of the connection.
@@ -78,7 +78,7 @@ The first step is to open the layer in QGIS that you would like to import into y
 
 Once you are set, in the main menu go to `Database` --> `DB Manager`. In the DB Manager, navigate to the connection and schema. See an example below.
 
-[[File:Db_manager.png|center|400px|pgAdmin4 interface]]
+![DB Manager](https://github.com/vrautenbach/gis311-notes/blob/master/images/Db_manager.png)
 
 Next click on the `import` option. The `Import vector layer` popup will appear. Please complete the following:
 * *Input* --> Select the layer you would like to import into your database.
@@ -91,7 +91,7 @@ Next click on the `import` option. The `Import vector layer` popup will appear. 
     * *Convert field names to lowercase*
     * *Create spatial index* --> this make access to the table in PostgreSQL faster
 
-[[File:Import_vector.png|center|300px|pgAdmin4 interface]]
+[Import Vector](https://github.com/vrautenbach/gis311-notes/blob/master/images/Import_vector.png)
 
 It is important to add your SRID, else you will not be able to execute spatial queries. A spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system, tolerance, and resolution. If you don't know what the SRID is for your shapefile, use [this site](https://epsg.io) to select an appropriate SRID.
 
