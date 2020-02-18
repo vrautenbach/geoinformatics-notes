@@ -33,93 +33,100 @@ This is a very popular format and it is important that you know how to use CSVs.
 ### Loading a CSV into a new table
 [This tutorial](http://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/) provides a good example of how to load a CSV into a database. You should adapt the information in the tutorial to work with your data.
 
-In pgAdmin4, you can create and alter your tables using SQL but also the GUI. To access the GUI, right click on your table name and select **Properties*.
+In pgAdmin4, you can create and alter your tables using SQL but also the GUI. To access the GUI, right click on your table name and select **Properties**.
 
 ### Basic SQL notation and operations
 Structured Query Language (SQL) is a standard language for accessing and manipulating databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and it helps maintain the integrity of databases, regardless of size.
 
-An SQL statement generally consists of three part:
-SELECT   --> What is the results? or What would you like to see?
-FROM      --> Which tables are you using?
-WHERE   --> Is there any conditions?
+An SQL statement generally consists of three parts:
 
-I consider [https://www.w3schools.com/sql/sql_intro.asp w3schools] the best resource when writing SQL statements.
+*SELECT*   --> What is the results? What would you like to see?
 
-Here are some examples:
+*FROM*      --> Which tables are you using?
+
+*WHERE*   --> Are there any conditions?
+
+I consider [w3schools](https://www.w3schools.com/sql/sql_intro.asp) the best resource when writing SQL statements.
+
+#### Here are some examples:
 * List all the record in the table:
-:This would be a basic SQL SELECT statement. Here is an example, [https://www.w3schools.com/sql/sql_select.asp https://www.w3schools.com/sql/sql_select.asp].
+This would be a basic SQL SELECT statement. Here is an [example.](https://www.w3schools.com/sql/sql_select.asp)
+
 * Selecting all records that fulfils a specific condition:
-: This would require using the WHERE statement and maybe adding operators, such as AND or OR. Here is an example, [https://www.w3schools.com/sql/sql_and_or.asp https://www.w3schools.com/sql/sql_and_or.asp].
+This would require using the *WHERE* statement and maybe adding operators, such as *AND* or *OR*. Here is an [example](https://www.w3schools.com/sql/sql_and_or.asp).
+
 * Calculating a sum of records that fulfil a specific condition (i.e. aggregating data):
-: This would require using aggregation operator, such as COUNT(), SUM() or AVG(). Here is an example, [https://www.w3schools.com/sql/sql_count_avg_sum.asp https://www.w3schools.com/sql/sql_count_avg_sum.asp].
+This would require using aggregation operator, such as *COUNT()*, *SUM()* or *AVG()*. Here is an [example](https://www.w3schools.com/sql/sql_count_avg_sum.asp).
 
 ## Section 2 
-=== Connection a PostGIS database to QGIS? ===
-In order to load QGIS layers into a PostGIS table or view a PostGIS table in QGIS, the first step is to create a connection between QGIS and PostgreSQL. To create a new connection, go to, ''Layer'' --> ''Add layer'' --> ''Add PostGIS layers''... Next, select ''New''. The following popup will appear.
+### Connection a PostGIS database to QGIS
+In order to load QGIS layers into a PostGIS table or view a PostGIS table in QGIS, the first step is to create a connection between QGIS and PostgreSQL. To create a new connection, go to, `Layer` --> `Add layer` --> `Add PostGIS layers`. Next, select **New**. The following popup will appear.
 
 [[File:Qgis_connection.png|center|250px|pgAdmin4 interface]]
 
 Add the following information:
-* Name --> this is the name of the connection.
-* Host --> In your case this would be localhost. If the database is on an off site server, you would add the IP of the server here.
-* Port --> The default port is 5432, this should be the same unless you changed it during installation.
-* Database --> This is the database that you would like to connect to (i.e. the database you created earlier).
-* Authentication --> Select the ''Basic'' tab, and add the username and password. In the lab the username and password would be '''postgres'''.
+* *Name* --> this is the name of the connection.
+* *Host* --> In your case this would be localhost. If the database is on an off site server, you would add the IP of the server here.
+* *Port* --> The default port is 5432, this should be the same unless you changed it during installation.
+* *Database* --> This is the database that you would like to connect to (i.e. the database you created earlier).
+* *Authentication* --> Select the **Basic** tab, and add the username and password. In the lab the username and password would be ***postgres***.
 
 After you have added all the information, you can test the connection, and thereafter complete the process by pressing OK.
 
 ### Loading a QGIS layer into a database
 The first step is to open the layer in QGIS that you would like to import into your database. I also assume you have created the PostGIS connection describe in the previous section.
 
-Once you are set, in the main menu go to ''Database'' --> DB ''Manager''. In the DB Manager, navigate to the connection and schema. See an example below.
+Once you are set, in the main menu go to `Database` --> `DB Manager`. In the DB Manager, navigate to the connection and schema. See an example below.
 
 [[File:Db_manager.png|center|400px|pgAdmin4 interface]]
 
-Next click on the ''import'' option. The ''Import vector layer'' popup will appear. Please complete the following:
-* Input --> Select the layer you would like to import into your database.
-* Schema --> This is the schema you will use. In most cases this will be public.
+Next click on the `import` option. The `Import vector layer` popup will appear. Please complete the following:
+* *Input* --> Select the layer you would like to import into your database.
+* *Schema* --> This is the schema you will use. In most cases this will be public.
 * Select the following options:
-** Geometry column --> leave this as geom
-** Source SRID
-** Target SRID
-** Encoding
-** Convert field names to lowercase
-** Create spatial index --> this make access to the table in PostgreSQL faster
+    * *Geometry column* --> leave this as geom
+    * *Source SRID*
+    * *Target SRID*
+    * *Encoding*
+    * *Convert field names to lowercase*
+    * *Create spatial index* --> this make access to the table in PostgreSQL faster
 
 [[File:Import_vector.png|center|300px|pgAdmin4 interface]]
 
-It is important to add your SRID, else you will not be able to execute spatial queries. A spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system, tolerance, and resolution. If you don't know what the SRID is for your shapefile, use [https://epsg.io this site] to select an appropriate SRID.
+It is important to add your SRID, else you will not be able to execute spatial queries. A spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system, tolerance, and resolution. If you don't know what the SRID is for your shapefile, use [this site](https://epsg.io) to select an appropriate SRID.
 
 ### Joining tables using SQL
-A JOIN clause is used to combine rows from two or more tables, based on a related column between them. In our case, we will find a column that is similar in both tables and JOIN based on that column. You can learn more about JOINS here, [https://www.w3schools.com/sql/sql_join.asp https://www.w3schools.com/sql/sql_join.asp].
+A ***JOIN*** clause is used to combine rows from two or more tables, based on a related column between them. In our case, we will find a column that is similar in both tables and ***JOIN*** based on that column. You can learn more about ***JOINS*** [here.](https://www.w3schools.com/sql/sql_join.asp)
 
-You will have to use on of the variations of the JOIN when completing the task.
+You will have to use on of the variations of the ***JOIN*** when completing the task.
 
-### Basics of spatial SQL
-Spatial SQL is an extension of SQL with spatial function. You can identify these function easily as they start with '''ST_'''.
+### Basics of Spatial SQL
+Spatial SQL is an extension of SQL with spatial function. You can identify these function easily as they start with ***ST_***.
 
 Below is an example of how you would run an intersect in spatial SQL:
 
+```
 SELECT a.*
 FROM table1 a, table2 b
 WHERE ST_Intersects(a.geom, b.geom)
+```
 
-You can learn more about spatial SQL from the [http://postgis.net/workshops/postgis-intro/index.html Boundless PostGIS workshop]. This tutorial uses the previous version of pgAdmin, but focus on the SQL statement and how they work.
+You can learn more about spatial SQL from the [Boundless PostGIS workshop.](http://postgis.net/workshops/postgis-intro/index.html) This tutorial uses the previous version of pgAdmin, but focus on the SQL statements and how they work.
 
-### pgAdmin 4 geometry viewer
+### pgAdmin 4 Geometry Viewer
 When you run a spatial SQL statement in pgAdmin, you often want to view the results. As of late-2018 pgAdmin now has a built-in geometry viewer. You can access the geometry viewer by clicking the eye icon in the geom column.
 
 ### Storing query results in a new table
-An easy way to store your results in a new table is to use the INTO operation. Learn more here, [https://www.w3schools.com/sql/sql_select_into.asp https://www.w3schools.com/sql/sql_select_into.asp].
+An easy way to store your results in a new table is to use the INTO operation. Learn more [here.](https://www.w3schools.com/sql/sql_select_into.asp)
 
 ## Other resources 
-''SQL resources:''
-* SQL Quick Reference From W3Schools, https://www.w3schools.com/sql/sql_quickref.asp
-* SQL Quick Guide - TutorialPoint, https://www.tutorialspoint.com/sql/sql-quick-guide.htm
-* Intro to SQL: Querying and managing data, https://www.khanacademy.org/computing/computer-programming/sql
+**SQL resources:**
+* [SQL Quick Reference From W3Schools](https://www.w3schools.com/sql/sql_quickref.asp)
+* [SQL Quick Guide - TutorialPoint](https://www.tutorialspoint.com/sql/sql-quick-guide.html)
+* [Intro to SQL: Querying and managing data](https://www.khanacademy.org/computing/computer-programming/sql)
 
-''PostGIS resources:''
-* Getting Started With PostGIS: An almost Idiot's Guide - Boston GIS, http://www.bostongis.com/?content_name=postgis_tut01
-* PostGIS documents, https://postgis.net/docs/manual-2.5/
-* PostGIS Reference, https://postgis.net/docs/manual-2.0/reference.html
-* PostGIS workshop (previously Boundless), http://postgis.net/workshops/postgis-intro/
+**PostGIS resources:**
+* [Getting Started With PostGIS: An almost Idiot's Guide - Boston GIS](http://www.bostongis.com/?content_name=postgis_tut01)
+* [PostGIS documents](https://postgis.net/docs/manual-2.5/)
+* [PostGIS Reference](https://postgis.net/docs/manual-2.0/reference.html)
+* [PostGIS workshop (previously Boundless)](http://postgis.net/workshops/postgis-intro/)
