@@ -26,8 +26,14 @@ Downloading data from OSM is a fairly easy process and can be done in many diffe
 * Similar to GeoFabrik, [Planet OSM](https://planet.openstreetmap.org) allows you to download OSM data depending on the area of your choosing. Navigating to [here](https://planet.openstreetmap.org/planet/) allows you to select what year of the data you would like. For the most recent data, you can select the current year but for historical data, you can select another year. 
 * The [Overpass-Turbo Tool](https://overpass-turbo.eu) is the most complicated tool out of the above to download OSM data. You need to create a query using the `Wizard` to select the data you want to download in the area you want. To get more information how to use this tool, select `Help` in the top ribbon. 
 
+OpenSteetMap (OSM) is a collaborative project to create a free editable map of the world. OSM can be used similarly to how you would use Google Map, but you can also add data to the map and download the raw data and use it in your own projects. 
+
+This Wiki provides a quick overview and also links to various useful resources, https://github.com/CamGreen/NRF-STINT_Wiki#OpenStreetMap-OSM
+
 # Kobo Toolbox
-[KoBoToolbox](https://www.kobotoolbox.org) is an integrated set of tools for building forms and collecting interview responses. It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or post-conflict environments. The administration interface is available via the web, and the data collection application can be used on an Android phone and via the browser on other phones.
+[KoBoToolbox](https://www.kobotoolbox.org) is an integrated set of tools for building forms and collecting interview responses. Kobo Toolbox allows you to design a form with various types of inputs that can be used in the field to collect point observations. 
+
+It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or post-conflict environments. The administration interface is available via the web, and the data collection application can be used on an Android phone and via the browser on other phones.
 
 You can access the KoBoToolbox Help Centre [here](http://support.kobotoolbox.org/en/) or use the sub-links below.
 
@@ -58,6 +64,15 @@ The KoBoToolbox Help Centre has various pages to help you view and download the 
 * Pulling your data into Excel Power Query, http://support.kobotoolbox.org/en/articles/1559346-pulling-your-data-into-excel-power-query
 * Pulling your data into PowerBI, http://support.kobotoolbox.org/en/articles/1841861-pulling-your-data-into-powerbi
 
+
 # Field papers
 
 # Other tools
+There are various open source and proprietary mobile data collection tools available. Here are some of the most common ones that you might find useful:
+
+* [ArcGIS Survey123](https://survey123.arcgis.com) 
+* [EpiCollect5](https://five.epicollect.net)
+* [GIS Cloud](https://www.giscloud.com)
+* [Maptionnaire](https://maptionnaire.com)
+* [Open Data Kit](https://opendatakit.org)
+* [QField](https://qfield.org)
