@@ -79,7 +79,7 @@ Next click on the `import` option. The `Import vector layer` popup will appear. 
     * *Convert field names to lowercase*
     * *Create spatial index* --> this make access to the table in PostgreSQL faster
 
-[Import Vector](https://github.com/vrautenbach/gis311-notes/blob/master/images/Import_vector.png)
+![Import Vector](https://github.com/vrautenbach/gis311-notes/blob/master/images/Import_vector.png)
 
 It is important to add your SRID, else you will not be able to execute spatial queries. A spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system, tolerance, and resolution. If you don't know what the SRID is for your shapefile, use [this site](https://epsg.io) to select an appropriate SRID.
 
