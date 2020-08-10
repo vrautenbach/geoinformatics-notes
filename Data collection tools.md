@@ -4,6 +4,27 @@ This page provides resources and some guidelines on how to get started with thre
 We are only highlighting these three open source tools, but there are various other tool available that might better suite your needs. 
 
 # OpenStreetMap
+[OpenStreetMap (OSM)](https://www.openstreetmap.org/#map=6/-28.676/24.677) is an openly-licensed geospatial database created and edited daily by volunteers worldwide, and used by a multitude of actors and for a variety of applications [(Coetzee et al. 2018)](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/35/2018/isprs-archives-XLII-4-W8-35-2018.pdf). More can be read about OSM on their [Wiki page](https://wiki.openstreetmap.org/wiki/Main_Page).
+
+## Creating an account:
+Before you can start editing and contributing map data, you first need to create an account with OSM. This is a simple procedure and can be done [here](https://www.openstreetmap.org/user/new). Watch this [video](https://youtu.be/VVBw5BfBOXY) for more information.
+
+## How to edit:
+Editing data on OSM is also a fairly easy process. There are a lot of tips and helpful advise on the internet and groups, a good place to start for advise on hw to contribute can be found [here](https://wiki.openstreetmap.org/wiki/Contribute_map_data). Alternatively, you can watch this short [video](https://youtu.be/Lf4UjJqBsvU) on editing map data.
+
+*Some tips for editing:*
+* Be as accurate as possible to ensure good quality data.
+* Take your time when it comes to editing as there is no prize for finishing quickly.
+* Try to add tags and comments when possible.
+
+## How to download data from OSM:
+Downloading data from OSM is a fairly easy process and can be done in many different ways. 
+
+* Data can be easily downloaded directly from the [OpenStreetMap (OSM)](https://www.openstreetmap.org/#map=6/-28.676/24.677) site by clicking the `Export` button in the top left hand corner and then selecting the area on where you wish to get data for. 
+* Data can also be downloaded from [GeoFabrik](https://download.geofabrik.de/index.html). Select the area for where you wish to download the data. More details on the files you can download can be found [here.](http://download.geofabrik.de/technical.html)
+* Another tool for downloading data is the [HOT Export Tool](https://export.hotosm.org/en/v3/). To use this tool, you are required to have an OSM account. Log in and then select the area you wish to download and what features you want downloaded. More information on how to use this tool can be found [here.](https://export.hotosm.org/en/v3/learn)
+* Similar to GeoFabrik, [Planet OSM](https://planet.openstreetmap.org) allows you to download OSM data depending on the area of your choosing. Navigating to [here](https://planet.openstreetmap.org/planet/) allows you to select what year of the data you would like. For the most recent data, you can select the current year but for historical data, you can select another year. 
+* The [Overpass-Turbo Tool](https://overpass-turbo.eu) is the most complicated tool out of the above to download OSM data. You need to create a query using the `Wizard` to select the data you want to download in the area you want. To get more information how to use this tool, select `Help` in the top ribbon. 
 
 # Kobo Toolbox
 [KoBoToolbox](https://www.kobotoolbox.org) is an integrated set of tools for building forms and collecting interview responses. It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or post-conflict environments. The administration interface is available via the web, and the data collection application can be used on an Android phone and via the browser on other phones.
