@@ -7,10 +7,12 @@ We are only highlighting these three open source tools, but there are various ot
 
 OpenSteetMap (OSM) is a collaborative project to create a free editable map of the world. OSM can be used similarly to how you would use Google Map, but you can also add data to the map and download the raw data and use it in your own projects. 
 
-This Wiki provides a quick overview and also links to various useful resources, 
+This Wiki provides a quick overview and also links to various useful resources, https://github.com/CamGreen/NRF-STINT_Wiki#OpenStreetMap-OSM
 
 # Kobo Toolbox
-[KoBoToolbox](https://www.kobotoolbox.org) is an integrated set of tools for building forms and collecting interview responses. It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or post-conflict environments. The administration interface is available via the web, and the data collection application can be used on an Android phone and via the browser on other phones.
+[KoBoToolbox](https://www.kobotoolbox.org) is an integrated set of tools for building forms and collecting interview responses. Kobo Toolbox allows you to design a form with various types of inputs that can be used in the field to collect point observations. 
+
+It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or post-conflict environments. The administration interface is available via the web, and the data collection application can be used on an Android phone and via the browser on other phones.
 
 You can access the KoBoToolbox Help Centre [here](http://support.kobotoolbox.org/en/) or use the sub-links below.
 
