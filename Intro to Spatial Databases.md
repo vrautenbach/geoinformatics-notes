@@ -4,12 +4,12 @@
 - [Loading spatial data into a table using QGIS](#loading-spatial-data-into-a-table-using-qgis)
   * [Connection a PostGIS database to QGIS](#connection-a-postgis-database-to-qgis)
   * [Loading a QGIS layer into a database](#loading-a-qgis-layer-into-a-database)
-  * [Basics of Spatial SQL](#basics-of-spatial-sql)
 - [Overview of SQL and Spatial SQL](#overview-of-sql-and-spatial-sql)
   * [Basic SQL notation and operations](#basic-sql-notation-and-operations)
   * [Basic examples:](#basic-examples-)
   * [Joining tables using SQL](#joining-tables-using-sql)
   * [Storing query results in a new table](#storing-query-results-in-a-new-table)
+  * [Basics of Spatial SQL](#basics-of-spatial-sql)
 - [pgAdmin 4 Geometry Viewer](#pgadmin-4-geometry-viewer)
 - [Other resources](#other-resources)
 
@@ -83,20 +83,6 @@ Next click on the `import` option. The `Import vector layer` popup will appear. 
 
 It is important to add your SRID, else you will not be able to execute spatial queries. A spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system, tolerance, and resolution. If you don't know what the SRID is for your shapefile, use [this site](https://epsg.io) to select an appropriate SRID.
 
-
-## Basics of Spatial SQL
-Spatial SQL is an extension of SQL with spatial function. You can identify these function easily as they start with ***ST_***.
-
-Below is an example of how you would run an intersect in spatial SQL:
-
-```
-SELECT a.*
-FROM table1 a, table2 b
-WHERE ST_Intersects(a.geom, b.geom)
-```
-
-You can learn more about spatial SQL from the [Boundless PostGIS workshop.](http://postgis.net/workshops/postgis-intro/index.html) This tutorial uses the previous version of pgAdmin, but focus on the SQL statements and how they work.
-
 # Overview of SQL and Spatial SQL
 ## Basic SQL notation and operations
 Structured Query Language (SQL) is a standard language for accessing and manipulating databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and it helps maintain the integrity of databases, regardless of size.
@@ -128,6 +114,19 @@ You will have to use on of the variations of the ***JOIN*** when completing the 
 
 ## Storing query results in a new table
 An easy way to store your results in a new table is to use the INTO operation. Learn more [here.](https://www.w3schools.com/sql/sql_select_into.asp)
+
+## Basics of Spatial SQL
+Spatial SQL is an extension of SQL with spatial function. You can identify these function easily as they start with ***ST_***.
+
+Below is an example of how you would run an intersect in spatial SQL:
+
+```
+SELECT a.*
+FROM table1 a, table2 b
+WHERE ST_Intersects(a.geom, b.geom)
+```
+
+You can learn more about spatial SQL from the [PostGIS workshop.](https://postgis.net/workshops/postgis-intro/) This tutorial uses the previous version of pgAdmin, but focus on the SQL statements and how they work.
 
 # pgAdmin 4 Geometry Viewer
 When you run a spatial SQL statement in pgAdmin, you often want to view the results. As of late-2018 pgAdmin now has a built-in geometry viewer. You can access the geometry viewer by clicking the eye icon in the geom column.

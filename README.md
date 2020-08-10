@@ -18,4 +18,4 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
 5. Web maps with python - quick reference 
 
 ## Contact us
-If you find any issues or have comments, please submit an issue through the Github interface, or contact [Victoria Rautenbach](https://github.com/vrautenbach) or [Cameron Green](https://github.com/CamGreen). 
+If you find any issues or have comments, please submit an issue through the Github interface, or contact [Victoria Rautenbach](https://github.com/vrautenbach), [Cameron Green](https://github.com/CamGreen) or [Azile Mdleleni](https://github.com/AMdleleni). 
