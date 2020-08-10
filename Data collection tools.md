@@ -5,6 +5,10 @@ We are only highlighting these three open source tools, but there are various ot
 
 # OpenStreetMap
 
+OpenSteetMap (OSM) is a collaborative project to create a free editable map of the world. OSM can be used similarly to how you would use Google Map, but you can also add data to the map and download the raw data and use it in your own projects. 
+
+This Wiki provides a quick overview and also links to various useful resources, 
+
 # Kobo Toolbox
 [KoBoToolbox](https://www.kobotoolbox.org) is an integrated set of tools for building forms and collecting interview responses. It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or post-conflict environments. The administration interface is available via the web, and the data collection application can be used on an Android phone and via the browser on other phones.
 
@@ -37,6 +41,15 @@ The KoBoToolbox Help Centre has various pages to help you view and download the 
 * Pulling your data into Excel Power Query, http://support.kobotoolbox.org/en/articles/1559346-pulling-your-data-into-excel-power-query
 * Pulling your data into PowerBI, http://support.kobotoolbox.org/en/articles/1841861-pulling-your-data-into-powerbi
 
+
 # Field papers
 
 # Other tools
+There are various open source and proprietary mobile data collection tools available. Here are some of the most common ones that you might find useful:
+
+* [ArcGIS Survey123](https://survey123.arcgis.com) 
+* [EpiCollect5](https://five.epicollect.net)
+* [GIS Cloud](https://www.giscloud.com)
+* [Maptionnaire](https://maptionnaire.com)
+* [Open Data Kit](https://opendatakit.org)
+* [QField](https://qfield.org)
