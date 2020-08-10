@@ -1,14 +1,16 @@
-# Introduction to Spatial Databases
+# Contents
+{:toc}
+
+# Getting started with PostGIS
 
 This page provides resources and some guidelines on how to complete a GIS311 practical  (on spatial databases. Note that this page provides some information, not step-by-step instructions. You have to adapt information available online for your purposes to complete the task.
 
-## Section 1 
-### Creating a spatial database in pgAdmin 4 
+## Creating a spatial database in pgAdmin 4 
 [pgAdmin](https://www.pgadmin.org) is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world. You use pgAdmin to manage and interact with the data in the database. 
 
 To open pgAdmin, go to the `Start` --> `Applications` --> `PostgreSQL 10.x`, and select pgAdmin4. The pgAdmin interface will now open (you should see an elephant on a splash screen). The image below shows what the interface looks like.
 
-![pgAdmin Loading screen](https://github.com/vrautenbach/gis311-notes/blob/master/images/SplashScreen.png)
+![pgAdmin Loading screen](https://github.com/vrautenbach/geoinformatics-notes/blob/master/images/SplashScreen.png)
 
 
 To create a new database, use the menu at the top, `Object` --> `Create` --> `Database`. Add a database name that is appropriate and under the **Definition** tab, select the postgis template (see below). The general rule of thumb is to ***NOT*** use capital letters, special characters and spaces. This creates complications, so try to avoid this.
@@ -25,17 +27,17 @@ There is two ways to check if you successfully created a spatial database (i.e. 
 
 If you missed the step to create a spatial database, click on Extensions and add the **postgis** and **postgis_topology** extensions.
 
-### What is a CSV?
+## What is a CSV?
 A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format.
 
 This is a very popular format and it is important that you know how to use CSVs. You can read more about CSVs [here](https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/).
 
-### Loading a CSV into a new table
+## Loading a CSV into a new table
 [This tutorial](http://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/) provides a good example of how to load a CSV into a database. You should adapt the information in the tutorial to work with your data.
 
 In pgAdmin4, you can create and alter your tables using SQL but also the GUI. To access the GUI, right click on your table name and select **Properties**.
 
-### Basic SQL notation and operations
+## Basic SQL notation and operations
 Structured Query Language (SQL) is a standard language for accessing and manipulating databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and it helps maintain the integrity of databases, regardless of size.
 
 An SQL statement generally consists of three parts:
@@ -48,7 +50,7 @@ An SQL statement generally consists of three parts:
 
 I consider [w3schools](https://www.w3schools.com/sql/sql_intro.asp) the best resource when writing SQL statements.
 
-#### Here are some examples:
+### Here are some examples:
 * List all the record in the table:
 This would be a basic SQL SELECT statement. Here is an [example.](https://www.w3schools.com/sql/sql_select.asp)
 
@@ -58,8 +60,7 @@ This would require using the *WHERE* statement and maybe adding operators, such 
 * Calculating a sum of records that fulfil a specific condition (i.e. aggregating data):
 This would require using aggregation operator, such as *COUNT()*, *SUM()* or *AVG()*. Here is an [example](https://www.w3schools.com/sql/sql_count_avg_sum.asp).
 
-## Section 2 
-### Connection a PostGIS database to QGIS
+## Connection a PostGIS database to QGIS
 In order to load QGIS layers into a PostGIS table or view a PostGIS table in QGIS, the first step is to create a connection between QGIS and PostgreSQL. To create a new connection, go to, `Layer` --> `Add layer` --> `Add PostGIS layers`. Next, select **New**. The following popup will appear.
 
 ![QGIS Connection](https://github.com/vrautenbach/gis311-notes/blob/master/images/QGIS_Connection.png)
@@ -73,7 +74,7 @@ Add the following information:
 
 After you have added all the information, you can test the connection, and thereafter complete the process by pressing OK.
 
-### Loading a QGIS layer into a database
+## Loading a QGIS layer into a database
 The first step is to open the layer in QGIS that you would like to import into your database. I also assume you have created the PostGIS connection describe in the previous section.
 
 Once you are set, in the main menu go to `Database` --> `DB Manager`. In the DB Manager, navigate to the connection and schema. See an example below.
@@ -95,12 +96,12 @@ Next click on the `import` option. The `Import vector layer` popup will appear. 
 
 It is important to add your SRID, else you will not be able to execute spatial queries. A spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system, tolerance, and resolution. If you don't know what the SRID is for your shapefile, use [this site](https://epsg.io) to select an appropriate SRID.
 
-### Joining tables using SQL
+## Joining tables using SQL
 A ***JOIN*** clause is used to combine rows from two or more tables, based on a related column between them. In our case, we will find a column that is similar in both tables and ***JOIN*** based on that column. You can learn more about ***JOINS*** [here.](https://www.w3schools.com/sql/sql_join.asp)
 
 You will have to use on of the variations of the ***JOIN*** when completing the task.
 
-### Basics of Spatial SQL
+## Basics of Spatial SQL
 Spatial SQL is an extension of SQL with spatial function. You can identify these function easily as they start with ***ST_***.
 
 Below is an example of how you would run an intersect in spatial SQL:
@@ -113,10 +114,10 @@ WHERE ST_Intersects(a.geom, b.geom)
 
 You can learn more about spatial SQL from the [Boundless PostGIS workshop.](http://postgis.net/workshops/postgis-intro/index.html) This tutorial uses the previous version of pgAdmin, but focus on the SQL statements and how they work.
 
-### pgAdmin 4 Geometry Viewer
+## pgAdmin 4 Geometry Viewer
 When you run a spatial SQL statement in pgAdmin, you often want to view the results. As of late-2018 pgAdmin now has a built-in geometry viewer. You can access the geometry viewer by clicking the eye icon in the geom column.
 
-### Storing query results in a new table
+## Storing query results in a new table
 An easy way to store your results in a new table is to use the INTO operation. Learn more [here.](https://www.w3schools.com/sql/sql_select_into.asp)
 
 ## Other resources 
