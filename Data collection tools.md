@@ -67,6 +67,16 @@ The KoBoToolbox Help Centre has various pages to help you view and download the 
 
 # Field papers
 
+[Field Papers](http://fieldpapers.org) is a web-based tool that is used for easily creating a printable map atlas for anywhere in the world that you can print and add notes to. It is a low-tech and easy way to collect data in the field that can be digitized afterwards. 
+
+Basically, to use Field Papers you have to follow these steps:
+
+1. [Create an atlas](http://fieldpapers.org/compose#17/-25.75383/28.23293) using  their website. The page will allow you to pick an area, number of blocks, basemap etc. The atlas can then be exported as a PDF, that you can print and use in the field. 
+2. In the field, you can then use the atlas to add notes and map features you observe in the field. 
+3. Once you are back from your field work, scan or take a picture of the pages of the atlas. The QR code is very important, so don't remove that. 
+4. [Upload the images](http://fieldpapers.org/snapshots/new) to the Field Papers site, the images will be converted to a georeferenced GeoTIFF that you can then download and use in any GIS software to digitize your field observations.   
+
+
 # Other tools
 There are various open source and proprietary mobile data collection tools available. Here are some of the most common ones that you might find useful:
 
