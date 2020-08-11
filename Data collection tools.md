@@ -1,3 +1,17 @@
+- [Overview](#overview)
+- [OpenStreetMap](#openstreetmap)
+  * [Creating an account:](#creating-an-account-)
+  * [How to edit:](#how-to-edit-)
+  * [How to download data from OSM:](#how-to-download-data-from-osm-)
+- [Kobo Toolbox](#kobo-toolbox)
+  * [Setting up a project:](#setting-up-a-project-)
+  * [Using the app:](#using-the-app-)
+  * [Viewing and downloading the collected data:](#viewing-and-downloading-the-collected-data-)
+- [Field papers](#field-papers)
+- [Other tools](#other-tools)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Overview
 This page provides resources and some guidelines on how to get started with three data collection tools. Note that this page provides a basic overview and is not meant to be step-by-step instructions. You have to adapt information available online for your purposes to complete the task.
 
