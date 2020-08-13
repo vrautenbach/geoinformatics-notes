@@ -29,6 +29,7 @@ If you want to learn more, have a look at the [European Unions 5 min course on o
 
 Data source | Type of data 
 --- | --- 
+[1Map](https://www.1map.co.za) | Base map, cadastre and other miscellaneous datasets
 [Wazimap](https://wazimap.co.za) | Populations and financial data
 [OpenUP data portal](https://data.openup.org.za/dataset) | Various datasets related to the census and other miscellaneous datasets
 [Municipal Money](https://municipalmoney.gov.za) | Municipal data spending
@@ -43,6 +44,7 @@ Data source | Type of data
 
 Data source | Type of data 
 --- | --- 
+[OpenStreetMap (OSM)](https://www.openstreetmap.org/) | Base map
 [Natural Earth](http://www.naturalearthdata.com)| Boundaries and natural features 
 [DIVA-GIS](http://www.diva-gis.org/gdata) | Boundaries and other base data  
 [GeoData at Tufts](https://geodata.tufts.edu) | Boundaries and other base data  
@@ -68,3 +70,7 @@ Data source | Type of data
 * [Prj2EPSG](http://prj2epsg.org/search)
 * [spatialreference.org](http://spatialreference.org)
 * [epsg.io](http://epsg.io)
+
+## Exporting data from OSM
+* [HOT Export tool](https://export.hotosm.org/en/v3/)
+* [overpass turbo](https://overpass-turbo.eu)
