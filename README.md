@@ -4,7 +4,7 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
 
 ## Table of Content
 1. [Data collection tools](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Data%20collection%20tools.md)
-2. Open data portals
+2. [Open data and Open data portals](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Open%20data%20portal.md)
 3. Getting started - Open source stack for web mapping:
     * [PostGIS](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20PostGIS.md)
     * GeoServer
