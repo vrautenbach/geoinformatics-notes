@@ -6,8 +6,10 @@
   * [International data](#international-data)
 - [Useful data related resources](#useful-data-related-resources)
   * [Projections and coordinate systems](#projections-and-coordinate-systems)
+  * [Exporting data from OSM](#exporting-data-from-osm)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 # What is Open Data?
