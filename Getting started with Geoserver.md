@@ -1,5 +1,15 @@
+- [Overview](#overview)
+- [Web Map Service and Web Feature Service](#web-map-service-and-web-feature-service)
+    + [WMS example](#wms-example)
+    + [WFS example](#wfs-example)
+- [Loading a PostGIS layer into GeoServer](#loading-a-postgis-layer-into-geoserver)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Overview 
 [GeoServer](http://geoserver.org) is an open source software server written in Java that allows users to share and edit geospatial data. Designed for interoperability, it publishes data from any major spatial data source using open standards. GeoServer is the reference implementation of the Open Geospatial Consortium (OGC) Web Feature Service (WFS) and Web Coverage Service (WCS) standards, as well as a high performance certified compliant Web Map Service (WMS). GeoServer forms a core component of the Geospatial Web.
+
+This page provides resources and some guidelines on how to get started with PostGIS. Note that this page provides a basic overview and is not meant to be step-by-step instructions. You have to adapt information available online for your purposes to complete the task.
 
 # Web Map Service and Web Feature Service
 Web services are independent, modular applications that can be published, located and dynamically invoked across the web.
@@ -11,14 +21,16 @@ The two main web services that you will use is web map service (WMS) and web fea
 ### WMS example
 ![WMS example](https://github.com/vrautenbach/geoinformatics-notes/blob/master/images/WMSexample.png)
 
+Read more here about the WMS implementation in GeoServer, https://docs.geoserver.org/latest/en/user/services/wms/index.html
 
 ### WFS example
 ![WFS example](https://github.com/vrautenbach/geoinformatics-notes/blob/master/images/WFSexample.png)
 
-# Creating a Workspace
+Read more here about the WFS implementation in GeoServer, https://docs.geoserver.org/latest/en/user/services/wfs/index.html
 
 
-# Connecting to a PostGIS as a Store
+# Loading a PostGIS layer into GeoServer
 
+The [GeoServer User Guide](https://docs.geoserver.org/latest/en/user/index.html) is very detailed and explains the process that needs to be followed very well. 
 
-# Loading a layer
+To load data from PostGIS into GeoServer, review these instructions, https://docs.geoserver.org/latest/en/user/gettingstarted/postgis-quickstart/index.html
