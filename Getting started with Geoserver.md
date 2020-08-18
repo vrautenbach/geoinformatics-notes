@@ -8,8 +8,11 @@ A web service is a program created with a specific purpose and to be able to use
 
 The two main web services that you will use is web map service (WMS) and web feature service (WFS). WMS is used to generate an image of your data, whereas WFS is used to access the actual data. Below is examples of both WMS and WFS. 
 
+### WMS example
 ![WMS example](https://github.com/vrautenbach/geoinformatics-notes/blob/master/images/WMSexample.png)
 
+
+### WFS example
 ![WFS example](https://github.com/vrautenbach/geoinformatics-notes/blob/master/images/WFSexample.png)
 
 # Creating a Workspace
