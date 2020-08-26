@@ -6,15 +6,20 @@
 - [Film](#film)
   * [Overview](#overview-1)
   * [Popular tools that can be used:](#popular-tools-that-can-be-used--2)
-- [Story maps](#story-maps)
+- [Infographics](#infographics)
   * [Overview](#overview-2)
   * [Popular tools that can be used:](#popular-tools-that-can-be-used--3)
+- [Story maps](#story-maps)
+  * [Overview](#overview-3)
+  * [Popular tools that can be used:](#popular-tools-that-can-be-used--4)
   * [Examples of story maps](#examples-of-story-maps)
 - [Podcasting](#podcasting)
   * [Overview:](#overview-)
-  * [Popular tools that can be used:](#popular-tools-that-can-be-used--4)
+  * [Popular tools that can be used:](#popular-tools-that-can-be-used--5)
+- [Screen recordings](#screen-recordings)
+  * [Popular tools that can be used:](#popular-tools-that-can-be-used--6)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>  
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
   
 
@@ -25,6 +30,7 @@ There are various types of digital media, for example, podcasts, stories, videos
 # Animations
 ## Popular tools that can be used:
 * [Animaker](https://class.animaker.com) allows you to make animations, infographics, presentations etc with easy to use drag and drop tools. 
+
 
 # Comic strips
 ## Popular tools that can be used:
@@ -39,6 +45,16 @@ Short films are a great way to use video to tell a story. The focus of film is g
 ## Popular tools that can be used:
 * [ACMI Film](https://www.acmi.net.au/education/online-learning/film-it/) is an online resource covering a range of filmmaking skills found in pre-production, production and post-production stages.
 * [OpenShot](https://www.openshot.org) is open source video edition tool that is perfect for beginners. 
+
+
+# Infographics
+## Overview
+Infographics are graphic visual representations of information, data, or knowledge intended to present information quickly and clearly. 
+
+## Popular tools that can be used:
+* [Canva](https://www.canva.com) is an easy to use tool with various templates that can be customized. 
+* [Piktochart](https://piktochart.com/formats/infographics/) allows you to create infographics or interactive maps with no design experience. 
+
 
 # Story maps
 ## Overview
@@ -69,6 +85,7 @@ Story maps are a combination of geospatial data, multimedia and text to help wit
     [Arya's Journey](https://storymap.knightlab.com/examples/aryas-journey/)  
     [How the Islamic State is carving out a new country](http://apps.washingtonpost.com/g/page/world/map-how-isis-is-carving-out-a-new-country/1095/)
 
+
 # Podcasting
 ## Overview:
 Podcasts are more popular than ever before. Podcasting can be a good way to express your thoughts on a topic, to record an interview, or to simply record themselves reading stories they’ve written. 
@@ -77,3 +94,9 @@ Podcasts are more popular than ever before. Podcasting can be a good way to expr
 * [Anchor](https://anchor.fm) allows you to record, edit and distribute your podcast
 * [Synth](https://gosynth.com) allows you to create 256 second podcast and is a create why to make a short series. 
 * [Audacity](https://www.audacityteam.org) is an open source audio editing software. 
+
+
+# Screen recordings
+## Popular tools that can be used:
+* [Apowersoft](https://www.apowersoft.com) allows you to record your screen and also edit the video.
+* [OBS Studio](https://obsproject.com) is a free and open source software for video recording and live streaming.
