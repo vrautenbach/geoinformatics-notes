@@ -28,12 +28,12 @@ There are various types of digital media, for example, podcasts, stories, videos
 
 
 # Animations
-## Popular tools that can be used:
+## Popular tools
 * [Animaker](https://class.animaker.com) allows you to make animations, infographics, presentations etc with easy to use drag and drop tools. 
 
 
 # Comic strips
-## Popular tools that can be used:
+## Popular tools
 * [Bubblr](https://www.pimpampum.net/en/project/bubblr-2/) allows you to create comic-strips (photonovels) using photos from flickr, just taking a sequence of pictures where you can add bubbles and create a story.
 * [MakeBeliefsComix](https://www.makebeliefscomix.com) allows you to create a non-realistic comic strips. 
 
@@ -42,7 +42,7 @@ There are various types of digital media, for example, podcasts, stories, videos
 ## Overview
 Short films are a great way to use video to tell a story. The focus of film is generally on the human experience. 
 
-## Popular tools that can be used:
+## Popular tools
 * [ACMI Film](https://www.acmi.net.au/education/online-learning/film-it/) is an online resource covering a range of filmmaking skills found in pre-production, production and post-production stages.
 * [OpenShot](https://www.openshot.org) is open source video edition tool that is perfect for beginners. 
 
@@ -51,7 +51,7 @@ Short films are a great way to use video to tell a story. The focus of film is g
 ## Overview
 Infographics are graphic visual representations of information, data, or knowledge intended to present information quickly and clearly. 
 
-## Popular tools that can be used:
+## Popular tools
 * [Canva](https://www.canva.com) is an easy to use tool with various templates that can be customized. 
 * [Piktochart](https://piktochart.com/formats/infographics/) allows you to create infographics or interactive maps with no design experience. 
 
@@ -60,7 +60,7 @@ Infographics are graphic visual representations of information, data, or knowled
 ## Overview
 Story maps are a combination of geospatial data, multimedia and text to help with the visualisation of events. This is a very unique tool for interactive storytelling when there is a spatial component. 
 
-## Popular tools that can be used:
+## Popular tools
 * [ArcGIS StoryMaps](https://storymaps.arcgis.com) (requires a Esri account, but UP students can request an account) is an easy to use platform and provide the various layouts that can be customized. 
 * [MapBox Interactive Storytelling](https://www.mapbox.com/impact-tools/interactive-storytelling) is a guided scroll-through narratives that incorporate text, image, and video on a fully interactive map. This platform require some coding.
 * [StoryMap JS](https://storymap.knightlab.com) is an open source to help you tell stories on the web that highlight the locations of a series of events. It is easy to use but has limited customization options. 
@@ -90,13 +90,13 @@ Story maps are a combination of geospatial data, multimedia and text to help wit
 ## Overview:
 Podcasts are more popular than ever before. Podcasting can be a good way to express your thoughts on a topic, to record an interview, or to simply record themselves reading stories they’ve written. 
 
-## Popular tools that can be used:
+## Popular tools
 * [Anchor](https://anchor.fm) allows you to record, edit and distribute your podcast
 * [Synth](https://gosynth.com) allows you to create 256 second podcast and is a create why to make a short series. 
 * [Audacity](https://www.audacityteam.org) is an open source audio editing software. 
 
 
 # Screen recordings
-## Popular tools that can be used:
+## Popular tools
 * [Apowersoft](https://www.apowersoft.com) allows you to record your screen and also edit the video.
 * [OBS Studio](https://obsproject.com) is a free and open source software for video recording and live streaming.
