@@ -16,7 +16,7 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
 6. Vector tiles - quick reference
 7. MapBox - quick reference
 8. Web maps with python - quick reference 
-9. Tools for creating digital media
+9. [Tools for creating digital media](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Tools%20for%20creating%20digital%20media.md)
 
 ## Contact us
 If you find any issues or have comments, please submit an issue through the Github interface, or contact [Victoria Rautenbach](https://github.com/vrautenbach), [Cameron Green](https://github.com/CamGreen) or [Azile Mdleleni](https://github.com/AMdleleni). 
