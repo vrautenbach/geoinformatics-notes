@@ -45,6 +45,9 @@ Short films are a great way to use video to tell a story. The focus of film is g
 ## Popular tools
 * [ACMI Film](https://www.acmi.net.au/education/online-learning/film-it/) is an online resource covering a range of filmmaking skills found in pre-production, production and post-production stages.
 * [OpenShot](https://www.openshot.org) is open source video edition tool that is perfect for beginners. 
+* [Windows Live Movie Maker](https://www.videowinsoft.com/videowin-movie-maker.html?gclid=CjwKCAjwkJj6BRA-EiwA0ZVPVpgZQA5Y2sO1IgkQj1etPHEBCJZUUNb-HR5rj_ZqxApTgvoCIAJlHhoCIdcQAvD_BwE) is a video creating/editing software application, designed for Windows 10 and 7, 8, XP. With Windows Movie Maker, you can easily make your own movie from your images and videos. You can add animations and effects between images and videos. Custom and edit the music of your own video. It is free for all Windows users. 
+* [iMovie](https://www.apple.com/imovie/) is a video editing software application developed by Apple Inc. for macOS, iOS, and iPadOS devices. It is free for all Mac users.
+* [Handbrake](https://handbrake.fr) is a free and open source tool for converting video from nearly any format to a selection of modern, widely supported codecs.
 
 
 # Infographics
