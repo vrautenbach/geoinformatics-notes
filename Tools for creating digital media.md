@@ -1,23 +1,26 @@
 - [Overview](#overview)
 - [Animations](#animations)
-  * [Popular tools](#popular-tools-that-can-be-used-)
+  * [Popular tools](#popular-tools)
 - [Comic strips](#comic-strips)
-  * [Popular tools ](#popular-tools-that-can-be-used--1)
+  * [Popular tools](#popular-tools-1)
 - [Film](#film)
   * [Overview](#overview-1)
-  * [Popular tools](#popular-tools-that-can-be-used--2)
+  * [Popular tools](#popular-tools-2)
 - [Infographics](#infographics)
   * [Overview](#overview-2)
-  * [Popular tools](#popular-tools-that-can-be-used--3)
+  * [Popular tools](#popular-tools-3)
 - [Story maps](#story-maps)
   * [Overview](#overview-3)
-  * [Popular tools](#popular-tools-that-can-be-used--4)
+  * [Popular tools](#popular-tools-4)
   * [Examples of story maps](#examples-of-story-maps)
 - [Podcasting](#podcasting)
   * [Overview:](#overview-)
-  * [Popular tools](#popular-tools-that-can-be-used--5)
+  * [Popular tools](#popular-tools-5)
 - [Screen recordings](#screen-recordings)
-  * [Popular tools](#popular-tools-that-can-be-used--6)
+  * [Popular tools](#popular-tools-6)
+- [Website](#website)
+  * [Overview](#overview-4)
+  * [Popular tools](#popular-tools-7)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -103,3 +106,14 @@ Podcasts are more popular than ever before. Podcasting can be a good way to expr
 ## Popular tools
 * [Apowersoft](https://www.apowersoft.com) allows you to record your screen and also edit the video.
 * [OBS Studio](https://obsproject.com) is a free and open source software for video recording and live streaming.
+
+# Website
+## Overview
+There are various web site you can use to create your own website or portfolio. When you start applying for a jobs, a portfolio will definitely count in your favour. 
+
+## Popular tools
+* [Github Pages](https://pages.github.com) allows you to host pages from your github repository. 
+* [Heroku](https://www.heroku.com) is a bit more advance than the other options available here, for example, you can setup your own database as well. 
+* [Netlify]https://www.netlify.com) offers a free tier that is perfect to get you started with your own web site. 
+* [Vercel](https://vercel.com) offers a free tier and does not require a credit card to get started. 
+* [Wix](https://www.wix.com) allows you to design a high quality website with their intuitive GUI and free templates. Hosting is also offered freely. 
