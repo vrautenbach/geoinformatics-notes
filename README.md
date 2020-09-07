@@ -11,7 +11,7 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
     * JavaScript and PhP
     * Web mapping libraries
     * Styling using CSS and SLD
-4. Docker - quick reference 
+4. [Docker - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Docker%20quick%20reference.md)
 5. Google Firebase - creating a map with a NoSQL database
 6. Vector tiles - quick reference
 7. MapBox - quick reference
