@@ -9,12 +9,13 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
     * [PostGIS](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20PostGIS.md)
     * [GeoServer](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20Geoserver.md)
     * JavaScript and PhP
-    * Web mapping libraries
+    * [Web mapping libraries](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20web%20mapping%20libraries.md)
     * Styling using CSS and SLD
+    * [Git and GitHub](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20Git%20and%20Github.md)
 4. [Docker - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Docker%20quick%20reference.md)
 5. Google Firebase - creating a map with a NoSQL database
 6. Vector tiles - quick reference
-7. MapBox - quick reference
+7. [MapBox - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Mapbox%20quick%20reference.md)
 8. Web maps with python - quick reference 
 9. [Tools for creating digital media](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Tools%20for%20creating%20digital%20media.md)
 
