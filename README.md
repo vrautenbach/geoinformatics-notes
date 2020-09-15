@@ -1,3 +1,5 @@
+Victoria Rautenbach
+
 # Geoinformatics Class Notes
 
 This repo has all the notes that will be used in the GIS 311 and GMT 320 classes at the University of Pretoria, South Africa. The notes will consist of intructions and tips on how to complete the practicals and assignments but not step-by-step instructions on what to do. These modules requires a higher level of thinking so feel welcome to think out of the box. 
