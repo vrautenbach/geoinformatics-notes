@@ -18,9 +18,9 @@
 This is a selection of resources for individuals interested in a geoinformatics of more technical career (mostly) in South Africa. If you have any additional resources, please add a issue with the suggestion. 
 
 ## Top job sites or recruiters in GIS or dev
-* [GIS recruiter](https://latitude-resource.co.za)
-* [Dev/data science type of jobs](https://www.offerzen.com)
-* [Job site](https://www.linkedin.com/jobs/?originalSubdomain=za)
+* [Latitude-resource GIS recruiter](https://latitude-resource.co.za)
+* [OfferZen Dev/data science type of jobs](https://www.offerzen.com)
+* [LinkedIn Jobs](https://www.linkedin.com/jobs/?originalSubdomain=za)
 
 ## GIS companies, some might have a "submit your CV option"
 * [Esri South Africa](https://www.esri-southafrica.com/careers/)
