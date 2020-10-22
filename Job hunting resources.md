@@ -40,7 +40,7 @@ This is a selection of resources for individuals interested in a geoinformatics 
 * [GIS Lounge (International)](https://www.gislounge.com/gis-job-listings/)
 
 ## Possible graduate programmes in data science or dev
-Some of there oppurtunities close mid-year
+*Some of these oppurtunities close mid-year*
 * [Entelect](https://culture.entelect.co.za/position/graduate/)
 * [BSG](https://bsg.co.za/careers/gdp/)
 * [Standard bank](https://graduate.standardbank.com/standimg/Graduate/pbb_graduate_programmes/DataScienceandAnalyticsGraduateProgramme.html)
