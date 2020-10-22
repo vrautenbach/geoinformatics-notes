@@ -54,7 +54,7 @@ Some of there oppurtunities close mid-year
 * [7 Tips for creating a graduate CV](https://www.indeed.com/career-advice/resumes-cover-letters/7-tips-for-creating-a-graduate-cv)
 * [Graduate CV templates: what to include in your first resume](https://www.theguardian.com/careers/2016/jun/14/graduate-cv-template-how-to-write-first-resume)
 
-Website for making your CV (I have used this in the past),https://resume.io 
+Website for making your CV, https://resume.io 
 
 ## Interview prep
 * [OfferZen guide to interviewing](http://docs.offerzen.com/en/articles/23681-guide-to-interviewing)
