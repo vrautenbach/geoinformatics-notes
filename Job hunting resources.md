@@ -72,7 +72,7 @@ Website for making your CV, https://resume.io
 * [PayScale](https://www.payscale.com/research/ZA/Job)
 * [Developer salaries](https://www.offerzen.com/blog/software-developer-salaries-johannesburg-capetown-2019)
 
-## Some good examples of LinkedIn profiles
+## Some examples of good LinkedIn profiles
 * [Yvette Bevis](https://www.linkedin.com/in/yvette-bevis-4541a121/)
 * [Luqmaan Hassim](https://www.linkedin.com/in/luqmaanhassim/)
 * [Stuart Martin](https://www.linkedin.com/in/stuart-martin-41605613/)
@@ -86,3 +86,10 @@ Website for making your CV, https://resume.io
 * [Wix](https://www.wix.com)
 * [WordPress](https://wordpress.com)
 * [GitHub Student Pack (get a free domain)](https://education.github.com/pack?sort=popularity&tag=Domains)
+<<<<<<< Updated upstream
+=======
+
+## Other useful resources:
+* [Data Scientist vs Data Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=fUpChfNN5Uo)
+* [Data Analyst vs Business Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=G4syHs3M82E)
+>>>>>>> Stashed changes
