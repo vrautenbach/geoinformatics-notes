@@ -1,14 +1,16 @@
-- [Top job sites or recruiters in GIS or dev:](#top-job-sites-or-recruiters-in-gis-or-dev-)
-- [GIS companies, some might have a "submit your CV option":](#gis-companies--some-might-have-a--submit-your-cv-option--)
-- [Possible graduate programmes in data science or dev:](#possible-graduate-programmes-in-data-science-or-dev-)
-- [Creating a good graduate profile:](#creating-a-good-graduate-profile-)
-- [Interview prep:](#interview-prep-)
-- [Practice your coding with:](#practice-your-coding-with-)
-- [Wonder how much you are worth:](#wonder-how-much-you-are-worth-)
-- [Some good examples of LinkedIn profiles:](#some-good-examples-of-linkedin-profiles-)
-- [Tools for creating your own portfolio:](#tools-for-creating-your-own-portfolio-)
+- [Top job sites or recruiters in GIS or dev](#top-job-sites-or-recruiters-in-gis-or-dev)
+- [GIS companies, some might have a "submit your CV option"](#gis-companies--some-might-have-a--submit-your-cv-option-)
+- [Possible graduate programmes in data science or dev](#possible-graduate-programmes-in-data-science-or-dev)
+- [Creating a good graduate profile](#creating-a-good-graduate-profile)
+- [Interview prep](#interview-prep)
+- [Practice your coding with](#practice-your-coding-with)
+- [Wonder how much you are worth](#wonder-how-much-you-are-worth)
+- [Some examples of good LinkedIn profiles](#some-examples-of-good-linkedin-profiles)
+- [Tools for creating your own portfolio](#tools-for-creating-your-own-portfolio)
+- [Other useful resources:](#other-useful-resources-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 # Job hunting resources
