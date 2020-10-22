@@ -21,6 +21,7 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
 8. [MapBox - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Mapbox%20quick%20reference.md)
 9. Web maps with python - quick reference 
 10. [Tools for creating digital media](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Tools%20for%20creating%20digital%20media.md)
+11. [Job hunting resources](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Job%20hunting%20resources.md)
 
 ## Contact us
 If you find any issues or have comments, please submit an issue through the Github interface, or contact [Victoria Rautenbach](https://github.com/vrautenbach), [Cameron Green](https://github.com/CamGreen) or [Azile Mdleleni](https://github.com/AMdleleni). 
