@@ -86,10 +86,8 @@ Website for making your CV, https://resume.io
 * [Wix](https://www.wix.com)
 * [WordPress](https://wordpress.com)
 * [GitHub Student Pack (get a free domain)](https://education.github.com/pack?sort=popularity&tag=Domains)
-<<<<<<< Updated upstream
-=======
 
 ## Other useful resources:
 * [Data Scientist vs Data Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=fUpChfNN5Uo)
 * [Data Analyst vs Business Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=G4syHs3M82E)
->>>>>>> Stashed changes
+
