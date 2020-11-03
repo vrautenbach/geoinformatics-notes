@@ -7,7 +7,7 @@
 - [Wonder how much you are worth](#wonder-how-much-you-are-worth)
 - [Some examples of good LinkedIn profiles](#some-examples-of-good-linkedin-profiles)
 - [Tools for creating your own portfolio](#tools-for-creating-your-own-portfolio)
-- [Other useful resources:](#other-useful-resources-)
+- [Other useful resources](#other-useful-resources-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -89,7 +89,7 @@ Website for making your CV, https://resume.io
 * [WordPress](https://wordpress.com)
 * [GitHub Student Pack (get a free domain)](https://education.github.com/pack?sort=popularity&tag=Domains)
 
-## Other useful resources:
+## Other useful resources
 * [Data Scientist vs Data Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=fUpChfNN5Uo)
 * [Data Analyst vs Business Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=G4syHs3M82E)
 * [Is Data Science Right For You?](https://www.youtube.com/watch?v=3Mm1U1CbzNw)
