@@ -72,7 +72,7 @@ Website for making your CV, https://resume.io
 
 ## Wonder how much you are worth
 * [PayScale](https://www.payscale.com/research/ZA/Job)
-* [Developer salaries](https://www.offerzen.com/blog/software-developer-salaries-johannesburg-capetown-2019)
+* [Developer salaries](https://www.offerzen.com/blog/developer-salaries-in-cape-town-vs-johannesburg)
 
 ## Some examples of good LinkedIn profiles
 * [Yvette Bevis](https://www.linkedin.com/in/yvette-bevis-4541a121/)
@@ -92,3 +92,9 @@ Website for making your CV, https://resume.io
 ## Other useful resources:
 * [Data Scientist vs Data Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=fUpChfNN5Uo)
 * [Data Analyst vs Business Analyst | Which Is Right For You?](https://www.youtube.com/watch?v=G4syHs3M82E)
+* [Is Data Science Right For You?](https://www.youtube.com/watch?v=3Mm1U1CbzNw)
+* [Esri SA - Geospatial Data Scientist](https://www.youtube.com/watch?v=tRpkQa0rXo4)
+* [Esri SA - Geospatial Technical Advisor](https://www.youtube.com/watch?v=9fpJSY-ENh4)
+* [Esri SA - Geospatial Technical Advisor](https://www.youtube.com/watch?v=9fpJSY-ENh4)
+* [Esri SA - Geospatial Application Developer](https://www.youtube.com/watch?v=x2KtC0LkRIc)
+* [Esri SA - Geospatial Solutions Architect](https://www.youtube.com/watch?v=8AlrUNHuHGw)
