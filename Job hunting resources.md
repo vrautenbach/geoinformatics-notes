@@ -55,6 +55,7 @@ This is a selection of resources for individuals interested in a geoinformatics 
 * [Offerzen Graduate profile example](http://docs.offerzen.com/en/articles/1151064-example-graduate-profile)
 * [7 Tips for creating a graduate CV](https://www.indeed.com/career-advice/resumes-cover-letters/7-tips-for-creating-a-graduate-cv)
 * [Graduate CV templates: what to include in your first resume](https://www.theguardian.com/careers/2016/jun/14/graduate-cv-template-how-to-write-first-resume)
+* [How to: Work at Google — Resume Tips](https://www.youtube.com/watch?v=zrXZBkYzuZo)
 
 Website for making your CV, https://resume.io 
 
