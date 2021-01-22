@@ -38,6 +38,7 @@ This is a selection of resources for individuals interested in a geoinformatics 
 * [Geography](https://www.geograph.co.za/pages/vacancies.html)
 * [GISSA (not a company, but places adverts for organizations)](http://gissa.org.za/jobs)
 * [GIS Lounge (International)](https://www.gislounge.com/gis-job-listings/)
+* [Civil Tech Job boards](https://docs.google.com/spreadsheets/d/1dFVoF6f9VU5pjaGhyyvQaBN0n6ae-iLCtlvsO1N2jhA/edit#gid=0)
 
 ## Possible graduate programmes in data science or dev
 *Some of these oppurtunities close mid-year*
