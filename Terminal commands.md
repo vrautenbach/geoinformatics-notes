@@ -24,3 +24,7 @@ This page provides you a quick overview of the commonly used terminal commands.
 | `rm -R <dir>`     | Delete a folder and its contents |  
 | `rm <file>` | Delete a file (This deletes the file permanently; use with caution) |  
 | `echo $null >> <file>`     | Creates an empty file in the current directory with the name `<file>` |  
+
+# Resources
+
+* [Conquering the Command Line: Unix and Linux Commands for Developers](http://conqueringthecommandline.com/book)
