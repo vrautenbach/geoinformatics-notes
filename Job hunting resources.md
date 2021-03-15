@@ -58,6 +58,7 @@ This is a selection of resources for individuals interested in a geoinformatics 
 * [7 Tips for creating a graduate CV](https://www.indeed.com/career-advice/resumes-cover-letters/7-tips-for-creating-a-graduate-cv)
 * [Graduate CV templates: what to include in your first resume](https://www.theguardian.com/careers/2016/jun/14/graduate-cv-template-how-to-write-first-resume)
 * [How to: Work at Google — Resume Tips](https://www.youtube.com/watch?v=zrXZBkYzuZo)
+* [Google: Creating a Data Science Resume](https://www.youtube.com/watch?v=B4oDzMNgpyw)
 
 Website for making your CV, https://resume.io 
 
