@@ -68,6 +68,7 @@ Website for making your CV, https://resume.io
 * [GIS Interview question database](https://docs.google.com/spreadsheets/d/1x77bV99-_r3wMg7eEgZme8430QqMxfqkU8n8W0UrIrI/htmlview) - if you have questions to add, you can [submit the here](https://docs.google.com/forms/d/e/1FAIpQLSdjtnvWZSyUoZ4ofHJ0oI0M-gkvWWsM4elv_xQYlxxguNFMGA/viewform).
 * [Knock em Dead Job Interview : How to Turn Job Interviews into Paychecks](http://docs.offerzen.com/en/articles/23681-guide-to-interviewing)
 * [Job interviews for dummies](https://ebookcentral-proquest-com.uplib.idm.oclc.org/lib/pretoria-ebooks/detail.action?docID=818047)
+* [Top 8 Statistics Interview Questions for a Data Science Interview](https://blog.usejournal.com/top-8-statistics-interview-questions-for-a-data-science-interview-ef95ad1dfefb)
 
 ## Practice your coding with
 * [CodeWars](https://www.codewars.com)
