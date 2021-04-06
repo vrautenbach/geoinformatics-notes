@@ -3,6 +3,7 @@
   - [GIS companies, some might have a "submit your CV option"](#gis-companies-some-might-have-a-submit-your-cv-option)
   - [Possible graduate programmes in data science or dev](#possible-graduate-programmes-in-data-science-or-dev)
   - [Creating a good graduate profile](#creating-a-good-graduate-profile)
+  - [Tools to create an awesome CV:](#tools-to-create-an-awesome-cv)
   - [Interview prep](#interview-prep)
   - [Practice your coding with](#practice-your-coding-with)
   - [Wonder how much you are worth](#wonder-how-much-you-are-worth)
@@ -60,7 +61,9 @@ This is a selection of resources for individuals interested in a geoinformatics 
 * [How to: Work at Google — Resume Tips](https://www.youtube.com/watch?v=zrXZBkYzuZo)
 * [Google: Creating a Data Science Resume](https://www.youtube.com/watch?v=B4oDzMNgpyw)
 
-Website for making your CV, https://resume.io 
+## Tools to create an awesome CV:
+* [Resume.io](https://resume.io) 
+* [Resumake](https://latexresu.me)
 
 ## Interview prep
 * [OfferZen guide to interviewing](http://docs.offerzen.com/en/articles/23681-guide-to-interviewing)
