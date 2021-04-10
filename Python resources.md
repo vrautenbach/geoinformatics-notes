@@ -8,7 +8,10 @@
 - [Tips for IDEs](#tips-for-ides)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+</br>
+</br>
 
+<i>Tip: If you are unable to open Medium articles due to free access limit, open a private window in your favorite browser. This should allow you to view the article. </i>
 
 ## Python
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/#toc)
