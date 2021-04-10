@@ -10,8 +10,9 @@
 
 # Resources
 Some of the top resources for learning Git and GitHub:
-* [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 * [Learn Git branching](https://learngitbranching.js.org)
+* [Git commands data scientists use on a day-to-day basis](https://towardsdatascience.com/git-commands-data-scientists-use-on-a-day-to-day-basis-40d588cd63f7)
+* [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 * [GitHub Learning Lab](https://lab.github.com)
 * [Resources to learn Git](https://try.github.io)
 * [Visualize Git](http://git-school.github.io/visualizing-git/)
