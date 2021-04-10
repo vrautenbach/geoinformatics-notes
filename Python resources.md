@@ -58,5 +58,6 @@
 
 
 ## Tips for IDEs
+* [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 * [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/)
 * [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
