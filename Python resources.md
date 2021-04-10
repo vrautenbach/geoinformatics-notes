@@ -39,6 +39,7 @@
 
 ## Tutorials or courses for learning Matplotlib or Seaborn
 * [Kaggle Data Visualization course](https://www.kaggle.com/learn/data-visualization)
+* [Matplotlib Course – Learn Python Data Visualization - Crash course](https://www.freecodecamp.org/news/matplotlib-course-learn-python-data-visualization/)
 
 
 ## Tips or tricks for creating charts
