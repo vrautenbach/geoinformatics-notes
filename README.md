@@ -6,20 +6,21 @@ This repo has all the notes that will be used in the GIS 311 and GMT 320 classes
 1. [Command line commands](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Terminal%20commands.md)
 2. [Data collection tools](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Data%20collection%20tools.md)
 3. [Open data and Open data portals](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Open%20data%20portal.md)
-4. Getting started - Open source stack for web mapping:
+4. [Python resources](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Python%20resources.md)
+5. Getting started - Open source stack for web mapping:
     * [PostGIS](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20PostGIS.md)
     * [GeoServer](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20Geoserver.md)
     * JavaScript and PhP
     * [Web mapping libraries](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20web%20mapping%20libraries.md)
     * Styling using CSS and SLD
     * [Git and GitHub](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Getting%20started%20with%20Git%20and%20Github.md)
-5. [Docker - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Docker%20quick%20reference.md)
-6. Google Firebase - creating a map with a NoSQL database
-7. Vector tiles - quick reference
-8. [MapBox - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Mapbox%20quick%20reference.md)
-9. Web maps with python - quick reference 
-10. [Tools for creating digital media](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Tools%20for%20creating%20digital%20media.md)
-11. [Job hunting resources](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Job%20hunting%20resources.md)
+6. [Docker - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Docker%20quick%20reference.md)
+7. Google Firebase - creating a map with a NoSQL database
+8. Vector tiles - quick reference
+9.  [MapBox - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Mapbox%20quick%20reference.md)
+10. Web maps with python - quick reference 
+11. [Tools for creating digital media](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Tools%20for%20creating%20digital%20media.md)
+12. [Job hunting resources](https://github.com/vrautenbach/geoinformatics-notes/blob/master/Job%20hunting%20resources.md)
 
 ## Contact us
 If you find any issues or have comments, please submit an issue through the Github interface, or contact [Victoria Rautenbach](https://github.com/vrautenbach), [Cameron Green](https://github.com/CamGreen) or [Azile Mdleleni](https://github.com/AMdleleni). 
