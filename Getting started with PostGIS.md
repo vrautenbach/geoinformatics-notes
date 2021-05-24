@@ -142,3 +142,4 @@ When you run a spatial SQL statement in pgAdmin, you often want to view the resu
 * [PostGIS documents](https://postgis.net/docs/manual-2.5/)
 * [PostGIS Reference](https://postgis.net/docs/manual-2.0/reference.html)
 * [PostGIS workshop (previously Boundless)](http://postgis.net/workshops/postgis-intro/)
+* [Spatial Data Management with PostGIS](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPcvp0ETujkLVCmKIGj-YvlG)
