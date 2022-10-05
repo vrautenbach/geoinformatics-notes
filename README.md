@@ -4,25 +4,25 @@ This GitBook has all the notes that will be used in the GIS 311 and GMT 320 clas
 
 ## Table of Content
 
-1. [Command line commands](repo/blob/master/terminal-commands.md)
-2. [Data collection tools](repo/blob/master/data-collection-tools.md)
-3. [Open data and Open data portals](repo/blob/master/open-data-portal.md)
-4. [Python resources](repo/blob/master/python-resources.md)
+1. [Command line commands](https://github.com/vrautenbach/geoinformatics-notes/blob/master/terminal-commands.md)
+2. [Data collection tools](https://github.com/vrautenbach/geoinformatics-notes/blob/master/data-collection-tools.md)
+3. [Open data and Open data portals](https://github.com/vrautenbach/geoinformatics-notes/blob/master/open-data-portal.md)
+4. [Python resources](https://github.com/vrautenbach/geoinformatics-notes/blob/master/python-resources.md)
 5. Getting started - Open source stack for web mapping:
-   * [PostGIS](repo/blob/master/getting-started-with-postgis.md)
-   * [GeoServer](repo/blob/master/getting-started-with-geoserver.md)
+   * [PostGIS](https://github.com/vrautenbach/geoinformatics-notes/blob/master/getting-started-with-postgis.md)
+   * [GeoServer](https://github.com/vrautenbach/geoinformatics-notes/blob/master/getting-started-with-geoserver.md)
    * JavaScript and PhP
-   * [Web mapping libraries](repo/blob/master/getting-started-with-web-mapping.md)
-   * [Leaflet JS Basics](repo/blob/master/leaflet-basics.md)
+   * [Web mapping libraries](https://github.com/vrautenbach/geoinformatics-notes/blob/master/getting-started-with-web-mapping-libraries.md)
+   * [Leaflet JS Basics](https://github.com/vrautenbach/geoinformatics-notes/blob/master/leaflet-basics.md)
    * Styling using CSS and SLD
-   * [Git and GitHub](repo/blob/master/getting-started-with-git-and-github.md)
-6. [Docker - quick reference](repo/blob/master/docker-quick-reference.md)
+   * [Git and GitHub](https://github.com/vrautenbach/geoinformatics-notes/blob/master/getting-started-with-git-and-github.md)
+6. [Docker - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/docker-quick-reference.md)
 7. Google Firebase - creating a map with a NoSQL database
 8. Vector tiles - quick reference
-9. [MapBox - quick reference](repo/blob/master/mapbox-quick-reference.md)
+9. [MapBox - quick reference](https://github.com/vrautenbach/geoinformatics-notes/blob/master/mapbox-quick-reference.md)
 10. Web maps with python - quick reference 
-11. [Tools for creating digital media](repo/blob/master/tools-for-creating-digital-media.md)
-12. [Job hunting resources](repo/blob/master/hob-hunting-resources.md)
+11. [Tools for creating digital media](https://github.com/vrautenbach/geoinformatics-notes/blob/master/tools-for-creating-digital-media.md)
+12. [Job hunting resources](https://github.com/vrautenbach/geoinformatics-notes/blob/master/job-hunting-resources.md)
 
 ## Contact us
 
